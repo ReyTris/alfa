@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card__wrapper">
+                <form action="" class="card__form" id="mainForm">
+                    <div class="card__radiobox">
+                        <div class="card__item">
+                            <div class="card__radio">
+                                <input type="radio" name="plan" value='plan1' id='plan1'>
+                                <label for="plan1" class="text__radio">license plan #1</label>
+                            </div>
+                            <span class="card__text"></span>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__radio">
+                                <input type="radio" name="plan" value='plan2' id='plan2'>
+                                <label for="plan2" class="text__radio">license plan #2</label>
+                            </div>
+                            <span class="card__text"></span>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__radio">
+                                <input type="radio" name="plan" value='plan3' id='plan3'>
+                                <label for="plan3" class="text__radio">license plan #3</label>
+                            </div>
+                            <span class="card__text"></span>
+                        </div>
+                    </div>
+
+                    <div class="card__select">
+                        <label for="number">Number of licenses:</label>
+                        <select name="number" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="card__total">
+                        <span class="card__total--title">total:</span>
+                        <span class="total__text"></span><sup>us</sup>
+                    </div>
+                    <button class="card__button">buy now</button>
+                </form>
+
+                <span class="selected__plan"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
